@@ -19,3 +19,8 @@ variable "tag_created_by" {
     type = string
     default = "terraform-bootstrap"
 }
+
+variable "dynamodb_table" {
+    description = "DynamoDB table name for storing state locks"
+    type = string
+}
